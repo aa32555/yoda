@@ -1,9 +1,9 @@
 {
-  "name": "base-app",
+  "name": "yoda-app",
   "version": "0.0.1",
-  "description": "A Quasar Framework app",
-  "productName": "Base Quasar App",
-  "author": "AA325 <aa3255@tutamail.com>",
+  "description": "An AA app",
+  "productName": "yoda",
+  "author": "Ahmed Khaled Abdelrazek <ahmedatefuzy@gmail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
