@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A Quasar Framework app",
   "productName": "Base Quasar App",
-  "author": "AA325 <aa3255@gmail.com>",
+  "author": "AA325 <aa3255@tutamail.com>",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.vue ./",
