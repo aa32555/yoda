@@ -6,8 +6,12 @@
   "author": "Ahmed Khaled Abdelrazek <ahmedatefuzy@gmail.com>",
   "private": true,
   "scripts": {
+    "dev":"./node_modules/@quasar/app/bin/quasar-dev",
+    "build":"./node_modules/@quasar/app/bin/quasar-dev",
     "lint": "eslint --ext .js,.vue ./",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "start-server":"echo \"coming soon...\"",
+    "stop-server":"echo \"coming soon...\""
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
