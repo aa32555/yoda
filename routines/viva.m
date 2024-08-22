@@ -10,7 +10,7 @@ a	;
 	e  w "we meet for the first time npc! " s ^viva=1 h 3
 	n i,st,nxt,ts 
 	s i=1,st=$g(st),nxt=$g(nxt),ts=$zut 
-	w !,"touch me forcably..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:59 d z(i)
+	w !,"touch me forcably..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:58 d z(i)
 	w #,!,"fineeto",!
 	d d ; dee dee waa
 	q
@@ -75,15 +75,15 @@ b	;
 	;But it can't hurt to try
 	; -end
 d	;
-	n a,c,x,y,z k b s a="" f  s a=$o(^viva(last,a)) q:a=""  s b(^viva,^viva(^viva,a,"time"))=^viva(^viva,a,"line")
+	n a,c,x,y,z k b s a="" f  s a=$o(^viva(^viva,a)) q:a=""  s b(^viva(^viva,a,"time"))=^viva(^viva,a,"line")
 	zwr b
 	q
-z(i)	;
+z(i)	i 1
 	w !,(i-10),"-",$p($t(b+i^viva),";",2,999)
         r nxt d
 	. i nxt="z" s i=i-1 d z(i-1) i 1
 	. e  d
-        . . s ^viva(^viva,i,"line")=$p($t(b+i^viva),";",2,999)
-        . . s ^viva(^viva,i,"time")=$zut-ts
+        . . s ^viva($g(^viva,0),i,"line")=$p($t(b+i^viva),";",2,999)
+        . . s ^viva($g(^viva,0),i,"time")=$zut-ts
         q
 	;
