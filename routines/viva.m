@@ -1,18 +1,20 @@
-main
-	w #
-	i $d(^viva) w "**warning** data exists!**" h 1 w !,"killing ^viva ..." k ^viva
-	n i,st,nxt,ts 
-	s i=0,st=$g(st),nxt=$g(nxt),ts=$p($h,",",2) 
-	r !,"Start (press any key to start recording...)",st d
-	. f i=9:1:57 d
-	. . w !,$c(9,9),$p($t(label+i^viva),";",2,999)
- 	. . r nxt d
-	. . . s ^viva(i,"line")=$p($t(label+i^viva),";",2,999)
-	. . . s ^viva(i,"time")=$p($h,",",2)-ts
-	w !,"Done, ^replay to replay..."
+main	; an  alien wrote this in front of everyone and no one cares
+	d a ;like steven smith of doc assistance. 
+	; im so insane ahhhh
 	q
-	;
-label
+h() n x s x=10000000 q x
+a	;
+	w #
+	i $g(^viva) w "**this is not the first attempt!",! d  i 1
+	. w "***this is attempt ",^viva,"!"
+	e  w "we meet for the first time npc! " s ^viva=1 h 3
+	n i,st,nxt,ts 
+	s i=1,st=$g(st),nxt=$g(nxt),ts=$zut 
+	w !,"touch me forcably..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:59 d z(i)
+	w #,!,"fineeto",!
+	d d ; dee dee waa
+	q
+b	;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;
@@ -71,18 +73,17 @@ label
 	;I'm being buried alive
 	;Didn't wanna kill the DJ
 	;But it can't hurt to try
-	; **cricket**
-	;
-	;
-	;
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-end	;
-	;
-	;
+	; -end
+d	;
+	n a,c,x,y,z k b s a="" f  s a=$o(^viva(last,a)) q:a=""  s b(^viva,^viva(^viva,a,"time"))=^viva(^viva,a,"line")
+	zwr b
 	q
+z(i)	;
+	w !,(i-10),"-",$p($t(b+i^viva),";",2,999)
+        r nxt d
+	. i nxt="z" s i=i-1 d z(i-1) i 1
+	. e  d
+        . . s ^viva(^viva,i,"line")=$p($t(b+i^viva),";",2,999)
+        . . s ^viva(^viva,i,"time")=$zut-ts
+        q
 	;
-	;
-replay	;
-	; todo
-	;
-	q
