@@ -5,12 +5,12 @@ main	; an  alien wrote this in front of everyone and no one cares
 h() n x s x=10000000 q x
 a	;
 	w #
-	i $g(^viva) w "**this is not the first attempt!",! d  i 1
+	i $g(^viva),$i(^viva) w "**this is not the first attempt!",! d  i 1
 	. w "***this is attempt ",^viva,"!"
-	e  w "we meet for the first time npc! " s ^viva=1 h 3
+	e  w "we meet for the first time npc! z=>go back 1  a=> start over #=> goto# " s ^viva=1 h 3
 	n i,st,nxt,ts 
 	s i=1,st=$g(st),nxt=$g(nxt),ts=$zut 
-	w !,"touch me forcably..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:58 d z(i)
+	w !,"touch me forcably..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:58 d z(.i)
 	w #,!,"fineeto",!
 	d d ; dee dee waa
 	q
@@ -79,9 +79,11 @@ d	;
 	zwr b
 	q
 z(i)	i 1
-	w !,(i-10),"-",$p($t(b+i^viva),";",2,999)
+	w #,(i-10),!!!,$p($t(b+i^viva),";",2,999)
         r nxt d
-	. i nxt="z" d z(i-1) i 1
+	. i nxt="z" s i=i-1 d z(.i) i 1
+	. e  i nxt s i=(nxt+10) d z(.i) i 1
+	. e  i nxt="a" s i=11 d z(.i) i 1
 	. e  d
         . . s ^viva($g(^viva,0),i,"line")=$p($t(b+i^viva),";",2,999)
         . . s ^viva($g(^viva,0),i,"time")=$zut-ts
