@@ -1,20 +1,7 @@
-main	; an  genous wrote this in front of everyone and e v e r y one careD
-	d a ;like steven smith PhD of doc assistance. 
-	; im so insane ahhhhmed 
+kiisme 
+	d a
 	q
-h() n x s x=10000000 q x
-a	;
-	w #
-	i $g(^kissme),$i(^kissme) w "**this is not the first attempt!",! d  i 1
-	. w "***this is attempt ",^kissme,"!"
-	e  w "we meet for the first time npc!",!," z=>go back 1",!,"  a=> start over #=> goto# ",! s ^kissme=1 h 5
-	n i,st,nxt,ts 
-	s i=1,st=$g(st),nxt=$g(nxt),ts=$zut 
-	w !,"kiss me by my choice..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:41 d z(.i)
-	w #,!,"fineeto",!
-	d d ; dee dee waa- de de de wa -
-	q
-b	;
+b	
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;
@@ -23,6 +10,8 @@ b	;
 	;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	;Kiss me, out of the bearded barley
+	;Nightly, beside the green, green grass
 	;Kiss me, out of the bearded barley
 	;Nightly, beside the green, green grass
 	;Swing, swing, (swing, swing) swing the spinning step
@@ -52,7 +41,6 @@ b	;
 	;So kiss me
 	;So kiss me
 	;So kiss me	
-	; 
 d	;
 	n a,c,x,y,z k b s a="" f  s a=$o(^kissme(^kissme,a)) q:a=""  s b(^kissme(^kissme,a,"time"))=^kissme(^kissme,a,"line")
 	zwr b
@@ -68,3 +56,15 @@ z(i)	i 1
         . . s ^kissme($g(^kissme,0),i,"time")=$zut-ts
         q
 	;
+h() n x s x=10000000 q x
+a	;
+	w #
+	i $g(^kissme),$i(^kissme) w "**this is not the first attempt!",! d  i 1
+	. w "***this is attempt ",^kissme,"!"
+	e  w "we meet for the first time npc!",!," z=>go back 1",!,"  a=> start over #=> goto# ",! s ^kissme=1 h 5
+	n i,st,nxt,ts 
+	s i=1,st=$g(st),nxt=$g(nxt),ts=$zut 
+	w !,"kiss me by my choice..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:41 d z(.i)
+	w #,!,"fineeto",!
+	d d ; dee dee waa- de de de wa -
+	q

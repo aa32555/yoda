@@ -1,91 +1,70 @@
-main	; an  alien wrote this in front of everyone and no one cares
-	d a ;like steven smith of doc assistance. 
-	; im so insane ahhhh
+main	; an  genous wrote this in front of everyone and e v e r y one careD
+	d a ;like steven smith PhD of doc assistance. 
+	; im so insane ahhhhmed 
 	q
 h() n x s x=10000000 q x
 a	;
 	w #
-	i $g(^viva),$i(^viva) w "**this is not the first attempt!",! d  i 1
-	. w "***this is attempt ",^viva,"!"
-	e  w "we meet for the first time npc! z=>go back 1  a=> start over #=> goto# " s ^viva=1 h 3
+	i $g(^kissme),$i(^kissme) w "**this is not the first attempt!",! d  i 1
+	. w "***this is attempt ",^kissme,"!"
+	e  w "we meet for the first time npc!",!," z=>go back 1",!,"  a=> start over #=> goto# ",! s ^kissme=1 h 5
 	n i,st,nxt,ts 
 	s i=1,st=$g(st),nxt=$g(nxt),ts=$zut 
-	w !,"touch me forcably..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:58 d z(.i)
+	w !,"kiss me by my choice..."_$c(13,10)_"to continue..",! h 2 w # r st f i=11:1:41 d z(.i)
 	w #,!,"fineeto",!
-	d d ; dee dee waa
+	d d ; dee dee waa- de de de wa -
 	q
 b	;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;
 	;;
-	;;       Routine by: Ahmed Khaled Abdelrazek. On the spot
+	;;       Routine by: Ahmed Khaled Abdelrazek
 	;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- 	;Viva Las Vengeance
- 	;Song by Panic! At The Disco 
- 	;Pyramid of ones, kids with loaded guns
- 	;Plugged on a power strip (power strip)
- 	;I'm already dead, woodstock in the shed
- 	;I'm so out of it (out of it)
- 	;Someone did me wrong, stole my favorite song
- 	;Yes, it really hurt (really hurt)
- 	;Stepped on every chord, fell on every sword
- 	;Yes, Excalibur (Excalibur)
- 	;I don't wanna be a diva
- 	;I just wanna be free
- 	;On a sofa with Sativa
- 	;Living the dream
- 	;Shut up and go to bed
- 	;She said, 'viva las vengeance'
- 	;Shut up and go to bed
- 	;She said, 'viva las vengeance'
- 	;Hacking at my feed, act like you are me
- 	;No one really cares (really cares)
- 	;Nothing's really real, no one really feels
- 	;Nothing to declare (to declare)
- 	;I don't wanna be anonymous
-	;But, I don't wanna be you
-	;In a city full of promises
-	;Nothing rings true
-	;Shut up and go to bed
-	;She said,'viva las vengeance'
-	;Shut up and go to bed
-	;She said, 'viva las vengeance'
-	;Giving up the key to paint a masterpiece
-	;What am I doing here?
-	;Stuck here in the weeds
-	;On a road that leads
-	;To nowhere, to nowhere, to nowhere, to nowhere
-	;To nowhere, to nowhere, to nowhere, to nowhere
-	;Shut up and go to bed
-	;Viva Las Vengeance
-	;Shut up and go to bed
-	;Viva Las Vengeance
-	;Shut up and go to bed
-	;Viva Las Vengeance
-	;Shut up and go to bed
-	;She said, 'viva las vengeance'
-	;Shut up and go to bed
-	;She said,'viva las vengeance'
-	;Every moment is a replay
-	;I'm being buried alive
-	;Didn't wanna kill the DJ
-	;But it can't hurt to try
-	; -end
+	;Kiss me, out of the bearded barley
+	;Nightly, beside the green, green grass
+	;Swing, swing, (swing, swing) swing the spinning step
+	;You wear those shoes and I will wear that dress
+	;Oh, kiss me, beneath the milky twilight
+	;Lead me out on the moonlit floor
+	;Lift your open hand
+	;Strike up the band and make the fireflies dance
+	;Silver moon's sparkling
+	;So kiss me
+	;Kiss me, (kiss me) down by the broken tree house
+	;Swing me, (swing me) upon its hanging tire
+	;Bring, bring, (bring, bring) bring your flowered hat
+	;We'll take the trail marked on your father's map
+	;Oh, kiss me, beneath the milky twilight
+	;Lead me out on the moonlit floor
+	;Lift your open hand
+	;Strike up the band and make the fireflies dance
+	;Silver moon's sparkling
+	;So kiss me
+	;Kiss me, beneath the milky twilight
+	;Lead me out on the moonlit floor
+	;Lift your open hand
+	;Strike up the band and make the fireflies dance
+	;Silver moon's sparkling
+	;So kiss me
+	;So kiss me
+	;So kiss me
+	;So kiss me	
+	; 
 d	;
-	n a,c,x,y,z k b s a="" f  s a=$o(^viva(^viva,a)) q:a=""  s b(^viva(^viva,a,"time"))=^viva(^viva,a,"line")
+	n a,c,x,y,z k b s a="" f  s a=$o(^kissme(^kissme,a)) q:a=""  s b(^kissme(^kissme,a,"time"))=^kissme(^kissme,a,"line")
 	zwr b
 	q
 z(i)	i 1
-	w #,(i-10),!!!,$p($t(b+i^viva),";",2,999)
+	w #,(i-10),!!!,$p($t(b+i^kissme),";",2,999)
         r nxt d
 	. i nxt="z" s i=i-1 d z(.i) i 1
 	. e  i nxt s i=(nxt+10) d z(.i) i 1
 	. e  i nxt="a" s i=11 d z(.i) i 1
 	. e  d
-        . . s ^viva($g(^viva,0),i,"line")=$p($t(b+i^viva),";",2,999)
-        . . s ^viva($g(^viva,0),i,"time")=$zut-ts
+        . . s ^kissme($g(^kissme,0),i,"line")=$p($t(b+i^kissme),";",2,999)
+        . . s ^kissme($g(^kissme,0),i,"time")=$zut-ts
         q
 	;
