@@ -81,7 +81,7 @@ d	;
 z(i)	i 1
 	w !,(i-10),"-",$p($t(b+i^viva),";",2,999)
         r nxt d
-	. i nxt="z" s i=i-1 d z(i-1) i 1
+	. i nxt="z" d z(i-1) i 1
 	. e  d
         . . s ^viva($g(^viva,0),i,"line")=$p($t(b+i^viva),";",2,999)
         . . s ^viva($g(^viva,0),i,"time")=$zut-ts
