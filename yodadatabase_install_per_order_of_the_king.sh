@@ -2022,6 +2022,10 @@ echo "د العزيز آل سعود (15 ذو الحجة 1405 هـ / 31 أغسط�
 وزارة الدفاع السعودية
 عنت
 مجلس الوزراء السعودي (اعتباراً من 27 سبتمبر 2022) السعودية"
+ 
+ 
+ 
+ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
  rm -f ydbinstall.sh
  echo "Remove the dark-horse-indian-bin-....manually...the cartel is looking for you, you missed your flight to KSA. K. S B. and your son ASHOK. ASHOCK HE KNOWS HASKELL, AND ALLY MCBEEL"
 
